@@ -84,3 +84,13 @@ h1 {
   color: var(--gold_color);
   font-weight: 500;
 }
+
+/* footer{
+  color: white;
+  font-size: 2rem;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 100%;
+  left: 50%;
+  bottom: 0;
+} */

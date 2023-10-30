@@ -4,12 +4,12 @@ const spinBtn = document.getElementById("spin_btn");
 const text = document.getElementById("text");
 /* --------------- Minimum And Maximum Angle For A value  --------------------- */
 const spinValues = [
-  { minDegree: 31, maxDegree: 90, value: "Ques 1", link: "https://www.google.com", target:"_blank",color:"white",style: "color" },
-  { minDegree: 331, maxDegree: 30, value: "Ques 2", link: "https://www.google.com", target:"_blank" ,color:"white",style: "color"},
-  { minDegree: 271, maxDegree: 330, value: "Ques 3", link: "https://www.google.com", target:"_blank",color:"white",style: "color" },
-  { minDegree: 211, maxDegree: 270, value: "Ques 4", link: "https://www.google.com", target:"_blank",color:"white",style: "color"},
-  { minDegree: 151, maxDegree: 210, value: "Ques 5", link: "https://www.google.com", target:"_blank",color:"white",style: "color" },
-  { minDegree: 91, maxDegree: 150, value: "Ques 6", link: "https://www.google.com", target:"_blank",color:"white",style: "color" },
+  { minDegree: 31, maxDegree: 90, value: "Ques 1", link: "https://www.hackerrank.com/contests/drunk-n-code-spin-o-wheel/challenges/cut-the-sticks", target:"_blank",color:"white",style: "color" },
+  { minDegree: 331, maxDegree: 30, value: "Ques 2", link: "https://www.hackerrank.com/contests/drunk-n-code-spin-o-wheel/challenges/combo-meal", target:"_blank" ,color:"white",style: "color"},
+  { minDegree: 271, maxDegree: 330, value: "Ques 3", link: "https://www.hackerrank.com/contests/drunk-n-code-spin-o-wheel/challenges/the-power-sum", target:"_blank",color:"white",style: "color" },
+  { minDegree: 211, maxDegree: 270, value: "Ques 4", link: "https://www.hackerrank.com/contests/drunk-n-code-spin-o-wheel/challenges/two-characters", target:"_blank",color:"white",style: "color"},
+  { minDegree: 151, maxDegree: 210, value: "Ques 5", link: "https://www.hackerrank.com/contests/drunk-n-code-spin-o-wheel/challenges/constructing-a-number", target:"_blank",color:"white",style: "color" },
+  { minDegree: 91, maxDegree: 150, value: "Ques 6", link: "https://www.hackerrank.com/contests/drunk-n-code-spin-o-wheel/challenges/summing-the-n-series", target:"_blank",color:"white",style: "color" },
 ];
 /* --------------- Size Of Each Piece  --------------------- */
 const size = [20,20,20,20,20,20];
@@ -84,6 +84,6 @@ spinBtn.addEventListener("click", () => {
       resultValue = 101;
     }
     spinBtn.disabled = true;
-  }, 10);
+  }, 20);
 });
 /* --------------- End Spin Wheel  --------------------- */

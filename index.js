@@ -2,7 +2,7 @@ const exprees = require("express");
 const app = exprees();
 const path = require("path");
 
-const port = 8080;
+const port = 8000;
 
 app.use(exprees.static(path.join(__dirname,"public/css")));
 app.use(exprees.static(path.join(__dirname,"public/js")));
